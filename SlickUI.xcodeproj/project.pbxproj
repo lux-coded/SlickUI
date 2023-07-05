@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570AF5EF2A4C47480085A64A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570AF5EE2A4C47480085A64A /* CustomTextField.swift */; };
+		57202AA72A5491A80063D393 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57202AA62A5491A80063D393 /* ProfileView.swift */; };
+		5729FD112A52ED2E0064198B /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5729FD102A52ED2E0064198B /* SideMenu.swift */; };
+		5729FD142A52EDE90064198B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5729FD132A52EDE90064198B /* HomeView.swift */; };
+		5729FD162A531EAC0064198B /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5729FD152A531EAC0064198B /* GroupsView.swift */; };
+		572B56C72A49A86A00B36DE9 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B56C62A49A86A00B36DE9 /* CustomFont.swift */; };
+		572B56D02A49DF4A00B36DE9 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B56CF2A49DF4A00B36DE9 /* SignInView.swift */; };
+		574665BE2A4EEF600059F0B4 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574665BD2A4EEF600059F0B4 /* TabBar.swift */; };
+		574665C02A4F0EDB0059F0B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574665BF2A4F0EDB0059F0B4 /* ContentView.swift */; };
+		5784DF872A49E1780098891C /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5784DF842A49E1780098891C /* Poppins-Bold.ttf */; };
+		5784DF882A49E1780098891C /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5784DF852A49E1780098891C /* Inter-SemiBold.ttf */; };
+		5784DF892A49E1780098891C /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5784DF862A49E1780098891C /* Inter-Regular.ttf */; };
 		57CAAC522A45A97B000B1F56 /* SlickUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CAAC512A45A97B000B1F56 /* SlickUIApp.swift */; };
-		57CAAC542A45A97B000B1F56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CAAC532A45A97B000B1F56 /* ContentView.swift */; };
 		57CAAC562A45A97C000B1F56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CAAC552A45A97C000B1F56 /* Assets.xcassets */; };
 		57CAAC592A45A97C000B1F56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CAAC582A45A97C000B1F56 /* Preview Assets.xcassets */; };
 		57CAAC632A45A97D000B1F56 /* SlickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CAAC622A45A97D000B1F56 /* SlickUITests.swift */; };
 		57CAAC6D2A45A97D000B1F56 /* SlickUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CAAC6C2A45A97D000B1F56 /* SlickUIUITests.swift */; };
 		57CAAC6F2A45A97D000B1F56 /* SlickUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CAAC6E2A45A97D000B1F56 /* SlickUIUITestsLaunchTests.swift */; };
+		57CAAC8B2A45AA2C000B1F56 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CAAC8A2A45AA2C000B1F56 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		570AF5EE2A4C47480085A64A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		57202AA62A5491A80063D393 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		5729FD102A52ED2E0064198B /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		5729FD132A52EDE90064198B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5729FD152A531EAC0064198B /* GroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
+		572B56C62A49A86A00B36DE9 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		572B56CF2A49DF4A00B36DE9 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		574665BD2A4EEF600059F0B4 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		574665BF2A4F0EDB0059F0B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5784DF842A49E1780098891C /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		5784DF852A49E1780098891C /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		5784DF862A49E1780098891C /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		5784DF8A2A49E2DB0098891C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		57CAAC4E2A45A97B000B1F56 /* SlickUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlickUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CAAC512A45A97B000B1F56 /* SlickUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlickUIApp.swift; sourceTree = "<group>"; };
-		57CAAC532A45A97B000B1F56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		57CAAC552A45A97C000B1F56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57CAAC582A45A97C000B1F56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		57CAAC5E2A45A97D000B1F56 /* SlickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +68,7 @@
 		57CAAC682A45A97D000B1F56 /* SlickUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlickUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CAAC6C2A45A97D000B1F56 /* SlickUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlickUIUITests.swift; sourceTree = "<group>"; };
 		57CAAC6E2A45A97D000B1F56 /* SlickUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlickUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		57CAAC8A2A45AA2C000B1F56 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +96,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5729FD122A52EDA60064198B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				572B56C62A49A86A00B36DE9 /* CustomFont.swift */,
+				570AF5EE2A4C47480085A64A /* CustomTextField.swift */,
+				574665BD2A4EEF600059F0B4 /* TabBar.swift */,
+				5729FD102A52ED2E0064198B /* SideMenu.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		572B56C82A49B16000B36DE9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5784DF862A49E1780098891C /* Inter-Regular.ttf */,
+				5784DF852A49E1780098891C /* Inter-SemiBold.ttf */,
+				5784DF842A49E1780098891C /* Poppins-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		57CAAC452A45A97B000B1F56 = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +140,12 @@
 		57CAAC502A45A97B000B1F56 /* SlickUI */ = {
 			isa = PBXGroup;
 			children = (
-				57CAAC512A45A97B000B1F56 /* SlickUIApp.swift */,
-				57CAAC532A45A97B000B1F56 /* ContentView.swift */,
+				5784DF8A2A49E2DB0098891C /* Info.plist */,
 				57CAAC552A45A97C000B1F56 /* Assets.xcassets */,
+				57CAAC512A45A97B000B1F56 /* SlickUIApp.swift */,
+				5729FD122A52EDA60064198B /* Components */,
+				57DB91192A4F1DD1004353AD /* Views */,
+				572B56C82A49B16000B36DE9 /* Fonts */,
 				57CAAC572A45A97C000B1F56 /* Preview Content */,
 			);
 			path = SlickUI;
@@ -127,6 +176,19 @@
 			path = SlickUIUITests;
 			sourceTree = "<group>";
 		};
+		57DB91192A4F1DD1004353AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				574665BF2A4F0EDB0059F0B4 /* ContentView.swift */,
+				57CAAC8A2A45AA2C000B1F56 /* OnboardingView.swift */,
+				572B56CF2A49DF4A00B36DE9 /* SignInView.swift */,
+				5729FD132A52EDE90064198B /* HomeView.swift */,
+				5729FD152A531EAC0064198B /* GroupsView.swift */,
+				57202AA62A5491A80063D393 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +205,8 @@
 			dependencies = (
 			);
 			name = SlickUI;
+			packageProductDependencies = (
+			);
 			productName = SlickUI;
 			productReference = 57CAAC4E2A45A97B000B1F56 /* SlickUI.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +279,8 @@
 				Base,
 			);
 			mainGroup = 57CAAC452A45A97B000B1F56;
+			packageReferences = (
+			);
 			productRefGroup = 57CAAC4F2A45A97B000B1F56 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,7 +298,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				57CAAC592A45A97C000B1F56 /* Preview Assets.xcassets in Resources */,
+				5784DF882A49E1780098891C /* Inter-SemiBold.ttf in Resources */,
 				57CAAC562A45A97C000B1F56 /* Assets.xcassets in Resources */,
+				5784DF872A49E1780098891C /* Poppins-Bold.ttf in Resources */,
+				5784DF892A49E1780098891C /* Inter-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +326,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57CAAC542A45A97B000B1F56 /* ContentView.swift in Sources */,
+				5729FD142A52EDE90064198B /* HomeView.swift in Sources */,
+				57CAAC8B2A45AA2C000B1F56 /* OnboardingView.swift in Sources */,
+				572B56C72A49A86A00B36DE9 /* CustomFont.swift in Sources */,
+				574665C02A4F0EDB0059F0B4 /* ContentView.swift in Sources */,
+				5729FD162A531EAC0064198B /* GroupsView.swift in Sources */,
+				5729FD112A52ED2E0064198B /* SideMenu.swift in Sources */,
+				570AF5EF2A4C47480085A64A /* CustomTextField.swift in Sources */,
+				574665BE2A4EEF600059F0B4 /* TabBar.swift in Sources */,
 				57CAAC522A45A97B000B1F56 /* SlickUIApp.swift in Sources */,
+				57202AA72A5491A80063D393 /* ProfileView.swift in Sources */,
+				572B56D02A49DF4A00B36DE9 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +497,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SlickUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SlickUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +526,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SlickUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SlickUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
