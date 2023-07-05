@@ -43,7 +43,7 @@ struct ContentView: View {
       .mask(RoundedRectangle(cornerRadius: 30, style: .continuous))
       .rotation3DEffect(.degrees(burgerMenu ? 30 : 0), axis: (x: 0, y: -1, z: 0))
       .offset(x: burgerMenu ? 265 : 0)
-      .scaleEffect(burgerMenu ? 0.9 : 1)
+      .scaleEffect(burgerMenu ? 0.95 : 1)
       .ignoresSafeArea()
       
       VStack(alignment: .leading) {
@@ -60,12 +60,16 @@ struct ContentView: View {
           )
           .font(.system(size: 50))
           .foregroundColor(burgerMenu ? .white : Color("Background2"))
+          .shadow(color: burgerMenu ? Color("Background2") : .clear, radius: 5, x: 0, y: 0)
           .padding(10)
           .cornerRadius(30)
         }
-        .offset(x: burgerMenu ? -100 : 0)
       }
-      .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
+      .frame(
+        maxWidth: .infinity,
+        maxHeight: .infinity,
+        alignment: .topTrailing
+      )
       
       TabBar()
         .offset(y: burgerMenu ? 300 : 0)
